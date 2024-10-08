@@ -1,0 +1,35 @@
+# include <iostream>
+using name space std;
+
+int main(){
+    int n;
+
+    cout << "Masukan jumlah elemnen array: ";
+    cin >> n
+
+    int arr[n];
+
+    cout << "Masukan elemen array: ";
+    for (int i = 0; < n; ++i){
+        cin >> arr[i];
+    }
+
+    cout << "Data array: ";
+    for (int i = 0; i < n; ++1){
+        cout << arr[i] << " ";
+    }
+
+    cout << "\nNomor Genap: ";
+    for (int i = 0; i < n; ++1){
+        if (arr[i] % 2 == 0){
+            cout << arr[i] << " ";
+        }
+    }
+
+    cout << "\nNomor Ganjil: ";
+    for (int i = 0; i < n; ++1){
+        if (arr[i] % 2 == 0){
+            cout << arr[i] << " ";
+        }
+    }
+}
