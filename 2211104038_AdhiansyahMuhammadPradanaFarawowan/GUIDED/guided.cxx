@@ -1,6 +1,6 @@
 #include <iostream>
 
-void arrayExample() {
+void contoh_arr() {
 	// Larik dalam aksi
 	int _ukuran_nilai = 5;
 	int nilai[_ukuran_nilai] = {30, 31, 32, 33, 34};
@@ -22,29 +22,29 @@ void arrayExample() {
 	}
 }
 
-void pointerExample() {
+void contoh_pointer() {
 	// Pointer dalam aksi
-	std::string dataTerkini = "3 Oktober 2024";
+	std::string data_terkini = "3 Oktober 2024";
 
 	// Pointer memiliki tipe datanya sendiri, ini bisa dilihat
 	// dengan adanya asterisk (*)
 	std::string *alamat;
 
-	// Kita "tunjuk" variabel ini ke alamat memori dataTerkini
-	alamat = &dataTerkini;
+	// Kita "tunjuk" variabel ini ke alamat memori data_terkini
+	alamat = &data_terkini;
 
 	// Jika kita kita menggunakan asterisk dalam penugasan, 
 	// ia akan mengembalikan nilai dari alamat yang ia tunjuk
 	std::cout << "Nilai variabel yang alamatnya ditunjuk: " << *alamat << std::endl;
-	std::cout << "dataTerkini: " << dataTerkini << std::endl;
+	std::cout << "data_terkini: " << data_terkini << std::endl;
 
 	// Bagaimana kalau ktia ubah nilainya?
 	*alamat = "32 Desember 1980";
 	std::cout << "Nilai baru variabel yang alamatnya ditunjuk: " << *alamat << std::endl;
-	std::cout << "dataTerkini: " << dataTerkini << std::endl;
+	std::cout << "data_terkini: " << data_terkini << std::endl;
 }
 
-int funExample(int x, int y) {
+int contoh_fungsi(int x, int y) {
 	// Fungsi yang melakukan perkalian dengan perulangan
 	int hasil;
 	while (y > 0) {
@@ -56,6 +56,6 @@ int funExample(int x, int y) {
 }
 
 int main() {
-	std::cout << funExample(3, 4) << std::endl;
+	std::cout << contoh_fungsi(3, 4) << std::endl;
 	return 0;
 }
