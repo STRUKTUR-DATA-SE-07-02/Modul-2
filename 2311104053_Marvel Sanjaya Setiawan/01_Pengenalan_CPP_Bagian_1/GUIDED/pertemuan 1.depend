@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1727319581 source:d:\struktur data\pertemuan 1\src\p2.cpp
+	"p2.h"
+
+1727319581 d:\struktur data\pertemuan 1\include\p2.h
+
+1727323236 source:d:\struktur data\pertemuan 1\main.cpp
+	<iostream>
+	<conio.h>
+
